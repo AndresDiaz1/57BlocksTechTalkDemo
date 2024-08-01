@@ -27,7 +27,6 @@ const flagTexture = textureLoader.load('/textures/skeleton.jpg')
  */
 // Geometry
 const geometry = new THREE.PlaneGeometry(1, 1, 10, 10)
-geometry.po
 
 // Material
 const material = new THREE.ShaderMaterial({
@@ -86,10 +85,6 @@ scene.add(camera)
 const controls = new OrbitControls(camera, canvas)
 controls.enableDamping = true
 
-
-window.addEventListener(tecla()=>{
-    camera.position(1,)
-})
 
 /**
  * Renderer
